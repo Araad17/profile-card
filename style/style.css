@@ -27,7 +27,7 @@ body {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    margin: 15px auto 20px;
+    margin: 10px auto 10px;
     border: 1px solid orange;
     overflow: hidden;
 }
