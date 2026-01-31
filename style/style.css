@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(49, 49, 92);
+}
+
+.container {
+    width: 300px;
+    height: 450px;
+    border: 1px solid rgba(155, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+
+.container .pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 25px auto 20px;
+    border: 1px solid orange;
+    overflow: hidden;
+}
+
+.container .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.name {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.cont {
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+li {
+    list-style: none;
+    font-weight: bolder;
+    color: orange;
+    /* margin: 5px; */
+    display: inline;
+    line-height: 30px;
+}
+
+span {
+    color: aliceblue;
+}
+
+a {
+    color: orangered;
+}
+
+.email li,
+.port li {
+    color: lime;
+}
+
+.arow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    color: orange;
+}
+
+.page {
+    display: none;
+    /* همه صفحات غیر فعال مخفی باشند */
+}
+
+.page.active {
+    display: block;
+    /* صفحه فعال نمایش داده شود */
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.container {
+    position: relative;
+}
+
+.center-arow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    /* ⬅ فلش‌ها در دو طرف */
+    align-items: center;
+
+    transform: translateY(-50%);
+    padding: 0 20px;
+    /* فاصله از لبه‌ها */
+}
+
+.about-cont {
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.cont2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.about {
+    text-align: justify;
+    line-height: 25px;
+    color: antiquewhite;
+    padding: 20px;
+}
+
+.yas {
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.full {
+    color: orange;
+}
+
+.skill {
+    text-align: center;
+    color: #0d6efd;
+}
+
+.skill-cont {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.front {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 10px;
+    color: aliceblue;
+    line-height: 28px;
+}
+
+.page-number {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 10px 5px;
+}
+
+.contact-cont {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.git {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    color: aliceblue;
+    border-radius: 15px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    padding: 10px;
+}
+
+.git a {
+    color: gold;
+}
+
+.em {
+    margin-top: 50px;
+}
+
+.eml {
+    margin-top: 40px;
+}
